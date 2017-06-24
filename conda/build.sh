@@ -60,7 +60,7 @@ cmake .. -G"$CMAKE_GENERATOR"                                            \
     -DWITH_CUDA=0                                                        \
     -DWITH_OPENCL=0                                                      \
     -DWITH_OPENNI=0                                                      \
-    -DWITH_FFMPEG=0                                                      \
+    -DWITH_FFMPEG=1                                                      \
     -DWITH_VTK=0                                                         \
     -DINSTALL_C_EXAMPLES=0                                               \
     -DOPENCV_EXTRA_MODULES_PATH="opencv_contrib/modules"                 \
